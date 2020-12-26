@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Reg">
+    <children>
+        <Label fx:id="lbl_Login" layoutX="120.0" layoutY="30.0" text="Логин" />
+        <Label fx:id="lbl_Password" layoutX="112.0" layoutY="81.0" text="Пароль" />
+        <Label fx:id="lbl_ConfirmPassword" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="8.0" layoutY="131.0" text="Подтверждение пароля" />
+        <Button fx:id="btn_Registration" layoutX="36.0" layoutY="181.0" mnemonicParsing="false" onAction="#Registration" prefHeight="28.0" prefWidth="152.0" text="Зарегистрироваться" />
+        <TextField fx:id="txt_Login" layoutX="175.0" layoutY="25.0" prefHeight="28.0" prefWidth="132.0" />
+        <PasswordField fx:id="psf_Password" layoutX="175.0" layoutY="76.0" prefHeight="28.0" prefWidth="132.0" />
+        <PasswordField fx:id="psf_ConfirmPassword" layoutX="175.0" layoutY="126.0" prefHeight="28.0" prefWidth="132.0" />
+        <Button fx:id="btn_Registration1" layoutX="202.0" layoutY="181.0" mnemonicParsing="false" onAction="#ReturnLogIn" prefHeight="28.0" prefWidth="87.0" text="Вернуться" />
+    </children>
+</AnchorPane>
